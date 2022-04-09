@@ -10,7 +10,7 @@ import {
   MDBContainer
 } from 'mdbreact';
 // import { BrowserRouter as Router } from 'react-router-dom';
-
+import Logo from '../assets/VINA.svg';
 class hamburgerMenuPage extends Component {
   state = {
     collapseID: ''
@@ -27,7 +27,7 @@ class hamburgerMenuPage extends Component {
         <div data-mdb-right="true" style={{width: "100vw"}}>
         <nav className="navbar navbar-light bg-light" data-mdb-right="true">
   <div className="container-fluid">
-    <h1>LOGO</h1>
+    <img src={Logo} style={{width: "100px", height: "100px"}}/>
     <button className="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
       data-mdb-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
       aria-expanded="false" aria-label="Toggle navigation">

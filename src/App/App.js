@@ -4,6 +4,7 @@ import {Container,Row,Col, Navbar} from  "react-bootstrap";
 import Hamburger from "../hamburgerMenuPage/hamburgerMenuPage.js";
 import Login from "../Login/Login.js";
 import SignUp from "../SignUp/SignUp";
+import Footer from "../Footer/Footer.js"
 const App = () => ( 
 <Container>
     <Row className="d-flex">
@@ -14,6 +15,7 @@ const App = () => (
         </div>
         <Login style={{border: "2px solid"}}/>
         <SignUp />
+        <Footer />
     </Row>
     </Container>
 );
