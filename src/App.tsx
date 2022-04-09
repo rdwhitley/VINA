@@ -5,6 +5,8 @@ import Menu from './components/Menu';
 import Page from './pages/Page';
 import Home from './pages/Home';
 
+import Login from './pages/Login';
+
 import HomeTabs from './pages/HomeTabs';
 
 /* Core CSS required for Ionic components to work properly */
@@ -45,8 +47,12 @@ const App: React.FC = () => {
            
             </Route>
 
+            <Route path="/login"  component={Login} exact={true}>
+           
+           </Route>
+
             <Route path="/" exact={true}>
-              <Redirect to="/home/tab2" />
+              <Redirect to="/login" />
             </Route>
 
             
