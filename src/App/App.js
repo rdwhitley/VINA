@@ -3,6 +3,7 @@ import {Container,Row,Col, Navbar} from  "react-bootstrap";
 // import * from "bootstrap";
 import Hamburger from "../hamburgerMenuPage/hamburgerMenuPage.js";
 import Login from "../Login/Login.js";
+import SignUp from "../SignUp/SignUp.js";
 const App = () => ( 
 <Container>
     <Row className="d-flex">
@@ -14,6 +15,7 @@ const App = () => (
     </Row>
     <Row className="justify-content-center">
         <Login/>
+        <SignUp />
     </Row>
     </Container>
 );
