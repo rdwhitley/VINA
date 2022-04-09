@@ -2,6 +2,7 @@ import React from "react";
 import {Container,Row,Col, Navbar} from  "react-bootstrap";
 // import * from "bootstrap";
 import Hamburger from "../hamburgerMenuPage/hamburgerMenuPage.js";
+import Login from "../Login/Login.js";
 const App = () => ( 
 <Container>
     <Row className="d-flex">
@@ -10,6 +11,9 @@ const App = () => (
         {/* <Navbar expand={false} bg="dark" variant="dark" fixed="top" collapseOnSelect/> */}
         <Hamburger />
         </div>
+    </Row>
+    <Row className="justify-content-center">
+        <Login/>
     </Row>
     </Container>
 );
