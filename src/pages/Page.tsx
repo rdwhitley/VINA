@@ -24,7 +24,7 @@ const Page: React.FC = () => {
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name={name} />
+        Test page
       </IonContent>
     </IonPage>
   );
