@@ -9,7 +9,7 @@ import {
 } from 'mdb-react-ui-kit';
 import {Container,Row,Col, Navbar} from  "react-bootstrap";
 const Login = () => {
-    return <div style={{width: "70vw", marginTop: "2em", border: "2px solid red", backgroundColor: "blue"}}>
+    return <div style={{width: "70vw", marginTop: "2em", border: "2px solid red", backgroundColor: "blue", margin: "0 auto"}}>
     <h3 style={{color: "white"}}>Login</h3>
     <form className="card" style={{backgroundColor: "#adb9c7", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.5)"}}>
     
